@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style/style_css.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4024c6865b.js" crossorigin="anonymous"></script>
+    <title>El Mundo a través de mis ojos</title>
+    <link rel="icon" href="imagenes/plane-departure-solid.svg" sizes="any" type="image/svg+xml">
+</head>
+
+<body>
+        <header>
+            <nav>
+                <div class="menu">
+                    <ul class="divisor">
+                        <li><a href="inicio.html">INICIO</li></a>
+                        <li><a href="blogdeviaje.html">BLOG DE VIAJES</a></li>
+                        <li><a href="destinos.html">DESTINOS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                        <li><a href="newsletter.html">NEWSLETTER</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header> 
+       
+        <main>
+            <div class="menu">
+             <ul class="divisor">
+                <h1 align="center">El mundo a través de nuestros OJOS</h1>
+                <il align="center"><img src="imagenes/paisaje.jpg" width="1870px"></il>
+             </ul>
+             <ul><strong><p>NEWSLETTER:</p></strong></ul>
+            </div>
+        </main>    
+        <footer>
+            <div class="menu">
+                <ul class="divisor">
+                    <li><i class="fa-brands fa-instagram fa-2x"></i></il>                    
+                    <li><i class="fa-brands fa-facebook fa-2x"></i></il>
+                    <li><i class="fa-regular fa-envelope fa-2x"></i></li>
+                </ul>
+            </div>
+        </footer>
+</body>
+<script defer>
+    let data = ( ) =>{
+        document.getElementById('display').innerHTML = `${window.innerWidth}px x ${window.innerHeight}px`
+    }
+    window.addEventListener('resize',data);
+    window.addEventListener('load',data)
+</script>
+</html>
