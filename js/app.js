@@ -6,9 +6,15 @@
 
 
     function check() {
-       if (document.getElementById('Hostel').checked) {
+       if (document.getElementById('inlineCheckbox2').checked) {
           document.getElementById("option1").disabled = false;
-          document.getElementById("option2").enabled = true; 
+          document.getElementById("option2").disabled = false; 
          } 
+         else {
+            document.getElementById("option1").checked = false;
+            document.getElementById("option2").checked = false;   
+            document.getElementById("option1").disabled = true;
+            document.getElementById("option2").disabled = true;   
+         }
     }    
 
