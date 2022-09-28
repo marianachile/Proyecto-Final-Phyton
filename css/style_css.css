@@ -47,7 +47,6 @@ main{
     text-align: justify;
 }
 
-
 .titulo{
         
         font-size: 2rem;
@@ -75,16 +74,6 @@ nav{
     background-color: hsla(150, 10%, 10%, 0.1);
 }
 
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-    color:  rgb(65, 50, 2);
-}
-.enlace2{
-    position: absolute;
-    padding: 20px 50px;
-    color:  rgb(65, 50, 2);
-}
 nav ul{
     list-style: none;
     background-color: rgba(0,0,0,0);
@@ -105,6 +94,7 @@ nav ul{
     color: rgb(65, 50, 2);
     font-size: 18px;
     text-decoration: none;
+    float: right;
 }
 
 li a.active, li a:hover {
@@ -117,7 +107,6 @@ li a.active, li a:hover {
     text-decoration: none;
     
 }
-
 .checkbtn {
     font-size: 30px;
     color: rgb(65, 50, 2);
