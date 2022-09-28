@@ -1,4 +1,3 @@
-defer>
     let data = ( ) =>{
         document.getElementById('display').innerHTML = `${window.innerWidth}px x ${window.innerHeight}px`
     }

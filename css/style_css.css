@@ -157,18 +157,16 @@ div img{
 
 #image_scenary{
     width: 98%;
-    padding-bottom: 1rem;
-divisor {
-width: 94%;
-max-width: 960px;
-margin: 0auto;
+    padding-bottom: 1rem;}
+.divisor{
+    width: 94%;
+    max-width: 960px;
+    margin: auto;
 }
 img {
 width: 100%;
 height: auto;
 }
-}
-
 .parrafo {
     font-size: 1rem;
     width: 98%;
