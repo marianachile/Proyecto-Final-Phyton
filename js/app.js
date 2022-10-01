@@ -1,9 +1,10 @@
-    let data = ( ) =>{
+    /*let data = ( ) =>{
         document.getElementById('display').innerHTML = `${window.innerWidth}px x ${window.innerHeight}px`
     }
+
     window.addEventListener('resize',data);
     window.addEventListener('load',data)
-
+*/
 
     function check() {
        if (document.getElementById('inlineCheckbox2').checked) {
